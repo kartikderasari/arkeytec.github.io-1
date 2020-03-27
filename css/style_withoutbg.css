@@ -1,5 +1,5 @@
 body, html {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Jura', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: #666;
@@ -38,7 +38,7 @@ p.intro {
 	font-size: 16px;
 	margin: 12px 0 0;
 	line-height: 24px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Jura', sans-serif;
 }
 a {
 	color: #222;
@@ -106,11 +106,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 }
 .navbar-custom {
 	margin-bottom: 0;
-	background-color: #222;
+	background-color: rgba(0, 0, 0, 0.87);
 	border-radius: 0px;
-	padding: 10px 0;
+	padding: 0px 0;
 }
-.navbar-custom .navbar-brand {
+.navbar-custom .navbar-brand {	
 	font-weight: 600;
 }
 .navbar-custom .navbar-brand:focus {
@@ -125,7 +125,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 	outline: 0;
 }
 .navbar-custom a {
-	color: #aaa;
+	color: #eee;
 }
 .navbar-custom .nav li a {
 	margin: 0 20px;
@@ -157,7 +157,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 .btn-default {
 	color: rgba(255,255,255,0.8);
 	background-color: transparent;
-	border: 2px solid rgba(255,255,255,0.7);
+	border: 2px solid rgba(255,255,255,0.5);
 	padding: 12px 20px;
 	margin: 0;
 	font-size: 15px;
@@ -234,6 +234,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d96b4da8', e
 #about {
 	padding: 100px 0;
 	background: #f6f6f6;
+	text-align:center;
 }
 #about .about-text {
 	margin-left: 10px;
@@ -244,8 +245,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d96b4da8', e
 	float: center;
 }
 #about p {
-	margin-top: 20px;
+	margin-top: 30px;
 	margin-bottom: 30px;
+	text-align: center;
+	font-size: 18px;
 }
 /* expertise Section */
 #expertise {
@@ -505,8 +508,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d96b4da8', e
 	background: rgba(255,255,255,0.3);
 }
 #contact h3 {
-	padding-top: 20px;
-	font-size: 20px;
+	padding-top: 10px;
+	font-size: 15px;
 	font-weight: 400;
 	color: #fff;
 }
@@ -524,7 +527,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d96b4da8', e
 label {
 	font-size: 12px;
 	font-weight: 400;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Jura', sans-serif;
 	float: left;
 }
 #contact .form-control {

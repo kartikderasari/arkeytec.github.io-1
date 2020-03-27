@@ -9,22 +9,21 @@
 
 <!-- Favicons
     ================================================== -->
-<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+<link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png">
 
 <!-- Bootstrap -->
-<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+<link rel="stylesheet" type="text/css"  href="../css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="../fonts/font-awesome/css/font-awesome.css">
 
 <!-- Stylesheet
     ================================================== -->
-<link rel="stylesheet" type="text/css"  href="css/style_withoutbg.css">
-<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
-<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
-<script type="text/javascript" src="js/modernizr.custom.js"></script>
+<link rel="stylesheet" type="text/css"  href="../css/style_withoutbg.css">
+<link rel="stylesheet" type="text/css" href="../css/prettyPhoto.css">
+<link href="https://fonts.googleapis.com/css?family=Jura&display=swap" rel="stylesheet">
+<script type="text/javascript" src="../js/modernizr.custom.js"></script>
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -63,19 +62,19 @@
           <ul class="nav navbar-nav">
             <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
             <li class="hidden"> <a href="#page-top"></a> </li>
-            <li> <a class="page-scroll" href="index.html#home">Home</a> </li>
-            <li> <a class="page-scroll" href="index.html#about">About Us</a> </li>
-            <li> <a class="page-scroll" href="index.html#skills">Expertise</a> </li>
-            <li> <a class="page-scroll" href="index.html#portfolio">Portfolio</a> </li>
-            <li> <a class="page-scroll" href="index.html#Achievements">Achievements</a> </li>
-            <li> <a class="page-scroll" href="index.html#contact">Contact</a> </li>
+            <li> <a class="page-scroll" href="../index.html#home">Home</a> </li>
+            <li> <a class="page-scroll" href="../index.html#about">About Us</a> </li>
+            <li> <a class="page-scroll" href="../index.html#expertise">Expertise</a> </li>
+            <li> <a class="page-scroll" href="../index.html#portfolio">Portfolio</a> </li>
+            <li> <a class="page-scroll" href="../index.html#Achievements">Achievements</a> </li>
+            <li> <a class="page-scroll" href="../index.html#contact">Contact</a> </li>
           </ul>
         </div>
       </div>
     </nav>
 </div>
 <!-- About Section -->
-<div id="page">
+<div id="about">
   <div class="container">
     <div class="section-title text-center center">
       <!-- <h2>About Us</h2> -->
@@ -83,16 +82,9 @@
     </div>
     <div class="row">
 
-
-      <div class="col-xs-12 col-md-6">
-        <div class="page-text">
-          <!-- <h3><u>Who Are We</u></h3> -->
-          <img src="img/ga/arkeytec_geneticalgorithm1.gif" class="img-responsive" alt=""><br><br>
-        </div>
-      </div>
-
-      <div class="col-xs-12 col-md-6">
-        <div class="page-text">
+      <div class="col-xs-12 col-md-12">
+        <div class="about-text">
+          <h3><u>What are Genetic Algorithms?</u></h3>
           <!-- <h3><u>Who Are We</u></h3> -->
             <p><b>Genetic algorithm</b> is a technique for optimizing the solution to a given problem. It follows the principle of biology and uses terms and processes such as chromosomes, genomes, generation and chromosomes, mutation and section. The process of evolution starts with a  generation consisting of random individuals. In each generation, the fitness of each individual is evaluated and based on their fitness value some of these individuals are selected. These individuals undergo cross over and mutation to form a new generation.<br><br> 
  
@@ -100,22 +92,34 @@
              
             GA’s are of special interest in AEC industry because of they of their ability to solve problem offering a <b>multiplicity of a possible solution.</b> GA’s offer bottom-up approach, as they are an emergent procedure that evolves through multiple attempt cycle. <br><br> 
              
-            They can resolve complex interactions between multiple factors and under multiple constraints offering solutions that occasionally surprise the designer.Some areas where we use Genetic algorithms are:-<br><br> 
+           <br><br> 
             
           </p>
         </div>
       </div>
 
+      <div class="col-xs-12 col-md-12">
+        <div class="about-text">
+          <!-- <h3><u>Who Are We</u></h3> -->
+          <img src="../img/ga/arkeytec_geneticalgorithm1.gif" class="img-responsive" alt="">
+          <p><i>
+            Image showing optimization taking place using genetic algorithms on various parameters like amount of light received, heat gain, water flow on-site, opening and views, amount of plinths to be constructed. 
+          </i></p>
+          <br><br>
+        </div>
+      </div>
 
     </div>
 
 
 
-      <div class="row">
-      <div class="col-xs-12 col-md-6">
-        <div class="page-text">
-          <!-- <h3><u>Who Are We</u></h3> -->
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <div class="about-text">
+          <h3><u>Problems it can solve</u></h3>
           <p>
+            They can resolve complex interactions between multiple factors and under multiple constraints offering solutions that occasionally surprise the designer. Some areas where we use Genetic algorithms are:-<br><br>
+
             <b>1) Structural performance.</b> <br>
             Structural performance is arguably the most critical performance issue that needs to be carefully studied and designed in architectural design. One can optimize structure in various ways ranging from form-finding to trying various material and their strengths. <br><br>
 
@@ -129,7 +133,7 @@
             <b>3) Aesthetic and cultural performance. </b> <br>
             These performance issues have long been the focal point in architectural design. The form, organization of space, material selection, color, shape, and details all play a role in determining the aesthetic and cultural performances of a building. These performances, contrary to the performance of the physical environment, are often difficult to quantify. <br><br>
             
-            Hence, we have our own set of around a hundred algorithms that help us quantify these intangibles.<br><br> 
+            Hence, we have our own set of around hundreds of algorithms that help us quantify these intangibles.<br><br> 
             
           </p>
         </div>
@@ -138,22 +142,30 @@
       
 
 
-      <div class="col-xs-12 col-md-6">
-        <div class="page-text">
+      <div class="col-xs-12 col-md-12">
+        <div class="about-text">
           <!-- <h3><u>Who Are We</u></h3> -->
-          <img src="img/ga/arkeytec_geneticalgorithm2.gif" class="img-responsive" alt=""><br><br>
+          <img src="../img/ga/arkeytec_geneticalgorithm2.gif" class="img-responsive" alt="">
+          <p><i>
+            Image showing optimization taking place using genetic algorithms for vertical housing (apartment building) for ideal unit type on each floor. the parameters are view, structure, FAR and FSI, amount of semi-open space, Amount of closed space, heat gain by the unit, incident solar radiation on the unit.  
+          </i></p>
+          <br><br>
         </div>
       </div>
     
     
     </div>
+
+
   </div>
 </div>          
 
 
 
 
-          <!-- <a href="#portfolio" class="btn btn-primary btn-lg page-scroll">My Portfolio</a> -->
+
+
+<!-- <a href="#portfolio" class="btn btn-primary btn-lg page-scroll">My Portfolio</a> -->
       
 
 <!-- Contact Section -->
@@ -222,16 +234,16 @@
     </div>
   </div>
 </div>
-<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
-<script type="text/javascript" src="js/bootstrap.js"></script> 
-<script type="text/javascript" src="js/SmoothScroll.js"></script> 
-<script type="text/javascript" src="js/easypiechart.js"></script> 
-<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
-<script type="text/javascript" src="js/jquery.isotope.js"></script> 
-<script type="text/javascript" src="js/jquery.counterup.js"></script> 
-<script type="text/javascript" src="js/waypoints.js"></script> 
-<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
-<script type="text/javascript" src="js/contact_me.js"></script> 
-<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="../js/jquery.1.11.1.js"></script> 
+<script type="text/javascript" src="../js/bootstrap.js"></script> 
+<script type="text/javascript" src="../js/SmoothScroll.js"></script> 
+<script type="text/javascript" src="../js/easypiechart.js"></script> 
+<script type="text/javascript" src="../js/jquery.prettyPhoto.js"></script> 
+<script type="text/javascript" src="../js/jquery.isotope.js"></script> 
+<script type="text/javascript" src="../js/jquery.counterup.js"></script> 
+<script type="text/javascript" src="../js/waypoints.js"></script> 
+<script type="text/javascript" src="../js/jqBootstrapValidation.js"></script> 
+<script type="text/javascript" src="../js/contact_me.js"></script> 
+<script type="text/javascript" src="../js/main.js"></script>
 </body>
 </html>
