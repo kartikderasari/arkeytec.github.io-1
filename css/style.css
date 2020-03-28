@@ -198,6 +198,54 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	outline: none;
 	outline-offset: none;
 }
+
+
+
+.btnb-default {
+	color: rgba(29, 28, 28, 0.904);
+	background-color: transparent;
+	border: 2px solid rgba(0, 0, 0, 0.897);
+	padding: 12px 20px;
+	margin: 0;
+	font-size: 19px;
+	border-radius: 0;
+	text-transform: uppercase;
+}
+.btnb-default:hover, .btnb-default:focus, .btnb-default.focus, .btnb-default:active, .btnb-default.active {
+	color: #fff;
+	background-color: #222;
+	border-color: #222;
+}
+.btnb-primary {
+	color: #526cbb;
+	background-color: transparent;
+	padding: 12px 20px;
+	border: 2px solid #526cbb;
+	border-radius: 0;
+	text-transform: uppercase;
+	font-size: 19px;
+	font-weight: 400;
+}
+.btnb-primary:hover, .btnb-primary:focus, .btnb-primary.focus, .btnb-primary:active, .btnb-primary.active {
+	color: #fff;
+	background-color: #526cbb;
+	border-color: #526cbb;
+}
+.btnb-primary i.fa {
+	margin-right: 10px;
+}
+.btnb:active, .btnb.active {
+	background-image: none;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+a:focus, .btnb:focus, .btnb:active:focus, .btnb.active:focus, .btnb.focus, .btnb:active.focus, .btn.active.focus {
+	outline: none;
+	outline-offset: none;
+}
+
+
 /* Home Section */
 .intro {
 	display: table;
@@ -293,6 +341,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 #portfolio {
 	padding: 100px 0;
 	background: #f6f6f6;
+	text-align: center;
 }
 .categories {
 	padding-bottom: 30px;
@@ -358,6 +407,7 @@ ol.type li a:hover {
 	-ms-transition: all 0.5s ease-out;
 	-o-transition: all 0.5s ease-out;
 	transition: all 0.5s ease-out;
+	text-align: center;
 }
 .portfolio-item:hover {
 	-webkit-transform: scale(1.1);
@@ -370,6 +420,7 @@ ol.type li a:hover {
 	height: 260px;
 	overflow: hidden;
 	position: relative;
+	text-align: center;
 }
 .hover-bg .hover-text {
 	position: absolute;
@@ -416,6 +467,7 @@ ol.type li a:hover {
 	font-size: 19px;
 	padding: 5px;
 	color: #E87E04;
+	text-align: center;
 }
 /* Achivements Section */
 #achievements {
@@ -512,9 +564,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 #contact .overlay {
 	padding: 100px 0 40px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6b4da8+0,4977c2+100&.5+0,.5+100 */
-	background: -moz-linear-gradient(left, rgba(107,77,168,.5) 0%, rgba(73,119,194,.5) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(left, rgba(107,77,168,.5) 0%, rgba(73,119,194,.5) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to right, rgba(107,77,168,.5) 0%, rgba(73,119,194,.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: -moz-linear-gradient(left, rgba(107,77,168,1) 0%, rgba(73,119,194,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(107,77,168,1) 0%, rgba(73,119,194,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(107,77,168,1) 0%, rgba(73,119,194,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d96b4da8', endColorstr='#d94977c2', GradientType=1 ); /* IE6-9 */
 }
 #contact h2 {
