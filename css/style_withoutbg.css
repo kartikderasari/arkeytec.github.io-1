@@ -360,6 +360,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 }
 ul.cat li {
 	display: inline-block;
+	font-size: 19px;
 }
 ol.type li {
 	display: inline-block;
@@ -436,7 +437,7 @@ ol.type li a:hover {
 	text-align: center;
 	margin: 0 auto;
 	color: #ffffff;
-	background: rgba(0, 0, 0, 0.66);
+	background: rgba(90,98,181, 0.66);
 	padding: 33% 0 0 0;
 	height: 100%;
 	width: 100%;
